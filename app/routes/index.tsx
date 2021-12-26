@@ -1,3 +1,9 @@
+export function headers() {
+  return {
+    "Cache-Control": "public, s-maxage=60",
+  };
+}
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
